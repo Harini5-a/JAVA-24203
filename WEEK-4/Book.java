@@ -9,13 +9,12 @@ public class Book {
         this.year_of_publication = year_of_publication;
     }
 
-    public void displaydetails {
-       System.out.println(book_one.title);
-       System.out.println(book_one.author);
-       System.out.println(book_one.year_of_publication);
+    public void displayDetails() {
+       System.out.println(this.title);
+       System.out.println(this.author);
+       System.out.println(this.year_of_publication);
        System.out.println();
     }
 }
+
     
-
-
